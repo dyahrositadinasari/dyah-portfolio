@@ -2,6 +2,11 @@ import streamlit as st
 
 st.title("Strategic Case Studies")
 
+st.markdown("""
+These selected case studies demonstrate my ability to solve complex, cross-functional 
+business problems by combining data modeling, automation engineering, and governance discipline.
+""")
+
 # ==========================
 # PROJECT 1
 # ==========================
@@ -11,11 +16,6 @@ st.header("Intelligent Revenue Recovery & Billing Automation Platform")
 st.markdown("""
 Designed and implemented an end-to-end automated billing intelligence platform 
 that reduced revenue leakage and operational friction through system architecture and workflow orchestration.
-""")
-
-st.markdown("""
-These selected case studies demonstrate my ability to solve complex, cross-functional 
-business problems by combining data modeling, automation engineering, and governance discipline.
 """)
 
 with st.expander("Business Problem"):
