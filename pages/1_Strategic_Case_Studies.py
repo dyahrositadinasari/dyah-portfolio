@@ -13,6 +13,11 @@ Designed and implemented an end-to-end automated billing intelligence platform
 that reduced revenue leakage and operational friction through system architecture and workflow orchestration.
 """)
 
+st.markdown("""
+These selected case studies demonstrate my ability to solve complex, cross-functional 
+business problems by combining data modeling, automation engineering, and governance discipline.
+""")
+
 with st.expander("Business Problem"):
     st.markdown("""
 - Missing vendor invoices  
