@@ -1,0 +1,24 @@
+import streamlit as st
+
+st.title("Contact & Credentials")
+
+st.markdown("""
+If you're looking for a Senior BI professional who combines 
+business strategy, system architecture, and governance discipline — let's connect.
+""")
+
+st.markdown("### Resume")
+with open("Resume_Dyah_Dinasari.pdf", "rb") as file:
+    st.download_button(
+        label="Download Resume",
+        data=file,
+        file_name="Dyah_Dinasari_Resume.pdf",
+        mime="application/pdf"
+    )
+
+st.markdown("### Professional Links")
+st.markdown("""
+- 🔗 LinkedIn: https://linkedin.com  
+- 🔗 GitHub: https://github.com  
+- 📧 Email: your.email@example.com  
+""")
