@@ -47,13 +47,6 @@ st.markdown("""
 
 st.markdown("---")
 
-with open("Resume Dyah Dinasari.pdf", "rb") as file:
-    st.download_button(
-        label="Download Resume",
-        data=file,
-        file_name="Dyah_Dinasari_Resume.pdf",
-        mime="application/pdf"
-    )
 
 st.markdown("🔗 [LinkedIn](https://www.linkedin.com/in/dyah-dinasari-751943193/) | 🔗 [GitHub](https://github.com/dyahrositadinasari/)")
 
