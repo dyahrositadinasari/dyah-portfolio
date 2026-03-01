@@ -21,7 +21,11 @@ st.title("Dyah Dinasari")
 st.subheader("Senior Business Intelligence & Analytics Engineer")
 
 st.markdown("""
-Architecting governed BI ecosystems that transform fragmented data into trusted executive decisions.
+### Architecting governed Business Intelligence ecosystems  
+that transform fragmented operational data into trusted executive decision systems.
+
+I specialize in building scalable data models, automation pipelines, and KPI governance frameworks 
+that enable real-time business optimization across marketing, finance, and operations.
 """)
 
 st.markdown("---")
