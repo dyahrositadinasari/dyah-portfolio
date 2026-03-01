@@ -1,4 +1,4 @@
-import streamlit as st
+meimport streamlit as st
 
 st.title("Contact & Credentials")
 
@@ -12,7 +12,7 @@ with open("Resume Dyah Dinasari.pdf", "rb") as file:
     st.download_button(
         label="Download Resume",
         data=file,
-        file_name="Dyah_Dinasari_Resume.pdf",
+        file_name="Resume_Dyah_Dinasari.pdf",
         mime="application/pdf"
     )
 
