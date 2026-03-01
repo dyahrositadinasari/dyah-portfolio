@@ -1,1 +1,25 @@
+/* Corporate Executive Theme */
 
+body {
+    background-color: #0E1117;
+    color: #E6E6E6;
+}
+
+h1, h2, h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.stMetric {
+    background-color: #1A1F2B;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.block-container {
+    padding-top: 2rem;
+}
+
+hr {
+    border: 1px solid #2A2F3A;
+}
