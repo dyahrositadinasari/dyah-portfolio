@@ -16,9 +16,14 @@ with open("Resume Dyah Dinasari.pdf", "rb") as file:
         mime="application/pdf"
     )
 
+st.markdown("""
+### Availability
+Open to regional and global remote BI / Analytics Engineering opportunities.
+""")
+
 st.markdown("### Professional Links")
 st.markdown(""" 
 - 🔗 LinkedIn: https://www.linkedin.com/in/dyah-dinasari-751943193/
 - 🔗 GitHub: https://github.com/dyahrositadinasari/
-- 📧 Email: ochi_dyah@yahoo.com  
+- 📧 Email: ochi_dyah@yahoo.com
 """)
