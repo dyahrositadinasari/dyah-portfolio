@@ -8,7 +8,7 @@ business strategy, system architecture, and governance discipline — let's conn
 """)
 
 st.markdown("### Resume")
-with open("Resume_Dyah_Dinasari.pdf", "rb") as file:
+with open("Resume Dyah Dinasari.pdf", "rb") as file:
     st.download_button(
         label="Download Resume",
         data=file,
@@ -17,8 +17,8 @@ with open("Resume_Dyah_Dinasari.pdf", "rb") as file:
     )
 
 st.markdown("### Professional Links")
-st.markdown("""
-- 🔗 LinkedIn: https://linkedin.com  
-- 🔗 GitHub: https://github.com  
-- 📧 Email: your.email@example.com  
+st.markdown(""" 
+- 🔗 LinkedIn: https://www.linkedin.com/in/dyah-dinasari-751943193/
+- 🔗 GitHub: https://github.com/dyahrositadinasari/
+- 📧 Email: ochi_dyah@yahoo.com  
 """)
