@@ -43,7 +43,7 @@ st.markdown("""
 """)
 
 
---download my resume
+# download my resume
 with open("Resume Dyah Dinasari.pdf", "rb") as file:
     st.download_button(
         label="Download Resume",
