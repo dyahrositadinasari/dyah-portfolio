@@ -47,7 +47,7 @@ st.markdown("""
 
 st.markdown("---")
 
-with open("Resume_Dyah_Dinasari.pdf", "rb") as file:
+with open("Resume Dyah Dinasari.pdf", "rb") as file:
     st.download_button(
         label="Download Resume",
         data=file,
