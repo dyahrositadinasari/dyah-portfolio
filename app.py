@@ -1,5 +1,15 @@
 import streamlit as st
 
+# download my resume
+with open("Resume Dyah Dinasari.pdf", "rb") as file:
+    st.download_button(
+        label="Download Resume",
+        data=file,
+        file_name="Dyah_Dinasari_Resume.pdf",
+        mime="application/pdf"
+    )
+
+# main page
 st.set_page_config(
     page_title="Dyah Dinasari | Senior BI & Analytics Engineer",
     layout="wide"
@@ -43,11 +53,3 @@ st.markdown("""
 """)
 
 
-# download my resume
-with open("Resume Dyah Dinasari.pdf", "rb") as file:
-    st.download_button(
-        label="Download Resume",
-        data=file,
-        file_name="Dyah_Dinasari_Resume.pdf",
-        mime="application/pdf"
-    )
