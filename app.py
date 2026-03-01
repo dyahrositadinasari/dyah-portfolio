@@ -1,4 +1,4 @@
-import stramlit as st
+import streamlit as st
 
 with open("Resume Dyah Dinasari.pdf", "rb") as file:
     st.download_button(
