@@ -26,12 +26,61 @@ Architecting governed BI ecosystems that transform fragmented data into trusted 
 
 st.markdown("---")
 
-col1, col2, col3, col4 = st.columns(4)
+st.markdown("### Executive Impact Snapshot")
 
-col1.metric("Years in Data", "10+")
-col2.metric("Enterprise Systems Built", "20+")
-col3.metric("Automation Workflows", "50+")
-col4.metric("Cross-Functional Projects", "High Complexity")
+kpi_html = """
+<style>
+.kpi-card {
+    background-color: #1E293B;
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid #334155;
+    transition: all 0.3s ease;
+}
+.kpi-card:hover {
+    transform: scale(1.05);
+    border-color: #3B82F6;
+}
+.kpi-value {
+    font-size: 36px;
+    font-weight: 700;
+    color: #38BDF8;
+}
+.kpi-label {
+    font-size: 14px;
+    color: #94A3B8;
+}
+</style>
+"""
+
+st.markdown(kpi_html, unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.markdown("""
+    <div class="kpi-card">
+        <div class="kpi-value">10+</div>
+        <div class="kpi-label">Years in Data & Analytics</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col2:
+    st.markdown("""
+    <div class="kpi-card">
+        <div class="kpi-value">20+</div>
+        <div class="kpi-label">Enterprise BI Systems Delivered</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col3:
+    st.markdown("""
+    <div class="kpi-card">
+        <div class="kpi-value">High</div>
+        <div class="kpi-label">Cross-Functional Complexity</div>
+    </div>
+    """, unsafe_allow_html=True)
 
 st.markdown("---")
 
